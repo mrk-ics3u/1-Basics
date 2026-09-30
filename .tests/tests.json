@@ -1,0 +1,62 @@
+{
+  "title": "Lab 1 - Name, Age and Numbers",
+  "cases": [
+    {
+      "type": "header",
+      "name": "Header is filled in"
+    },
+    {
+      "type": "output",
+      "name": "Works for Alice, 15, 6 and 3",
+      "stdin": ["Alice", "15", "6", "3"],
+      "expect": [
+        "What is your name? How old are you? Hello Alice, you are currently 15 years old.",
+        "In 10 years, you will be 25 years old.",
+        "Enter a number: Enter another number: Sum: 9",
+        "Difference: 3",
+        "Product: 18",
+        "Quotient: 2.0",
+        "Integer Division: 2",
+        "Modulo: 0",
+        "Power: 216"
+      ]
+    },
+    {
+      "type": "output",
+      "name": "Works for Emma, 22, 10 and 7",
+      "stdin": ["Emma", "22", "10", "7"],
+      "expect": [
+        "What is your name? How old are you? Hello Emma, you are currently 22 years old.",
+        "In 10 years, you will be 32 years old.",
+        "Enter a number: Enter another number: Sum: 17",
+        "Difference: 3",
+        "Product: 70",
+        "Quotient: 1.4285714285714286",
+        "Integer Division: 1",
+        "Modulo: 3",
+        "Power: 10000000"
+      ]
+    },
+    {
+      "type": "output",
+      "name": "Works for Rajan, 40, 9 and 12",
+      "stdin": ["Rajan", "40", "9", "12"],
+      "expect": [
+        "What is your name? How old are you? Hello Rajan, you are currently 40 years old.",
+        "In 10 years, you will be 50 years old.",
+        "Enter a number: Enter another number: Sum: 21",
+        "Difference: -3",
+        "Product: 108",
+        "Quotient: 0.75",
+        "Integer Division: 0",
+        "Modulo: 9",
+        "Power: 282429536481"
+      ]
+    },
+    {
+      "type": "comments",
+      "name": "Code is commented",
+      "min": 3
+    }
+  ]
+}
